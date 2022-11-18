@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from '../assets/Logo.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { useState } from 'react';
-import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link} from 'react-scroll'
 
 
 const Navbar = () => {

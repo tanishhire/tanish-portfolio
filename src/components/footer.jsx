@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaUnsplash} from 'react-icons/fa';
 import {AiTwotoneMail} from 'react-icons/ai';
-import Logo from '../assets/Logo.png';
+
 
 
 const Footer = () => {
