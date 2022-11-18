@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from '../assets/Logo.png';
 import {FaBars, FaTimes} from 'react-icons/fa';
 import { useState } from 'react';
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
 const Navbar = () => {
@@ -16,11 +17,12 @@ const Navbar = () => {
         </div>
         {/* Menu */}
           <ul className='hidden md:flex'>
-            <li className=''>Home</li>
-            <li className=''>About</li>
-            <li className=''>Skills</li>
-            <li className=''>Contact</li>
-            <li className=''>Gallery</li>
+            <li className=''><Link to='home' smooth={true} duration={500} >Home</Link></li>
+            <li className=''><Link to='about' smooth={true} duration={500} >About</Link></li>
+            <li className=''><Link to='skills' smooth={true} duration={500} >Skills</Link></li>
+            <li className=''><Link to='projects' smooth={true} duration={500} >Projects</Link></li>
+            <li className=''><Link to='contact' smooth={true} duration={500} >Contact</Link></li>
+
           </ul>
           <button className='hidden md:flex btn bg-slate-50 p-2 rounded-md text-bold '><a href="https://drive.google.com/file/d/1gLZe2F3rhN_fykDgVeeobFaKPVv-5dmI/view?usp=share_link"  target="_blank" rel="noopener noreferrer">Resume</a></button>
 
@@ -30,12 +32,11 @@ const Navbar = () => {
         </div>
         {/* MObile Menu */}
         <ul className= {!nav ? 'hidden' :  "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
-            <li className='py-6 text-4xl'>Home</li>
-            <li className='py-6 text-4xl'>About</li>
-            <li className='py-6 text-4xl'>Skills</li>
-            <li className='py-6 text-4xl'>Contact</li>
-            <li className='py-6 text-4xl'>Gallery</li>
-            <li className='py-6 text-4xl'>Resume</li>
+            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500} >Home</Link></li>
+            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='about' smooth={true} duration={500} >About</Link></li>
+            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500} >Skills</Link></li>
+            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='projects' smooth={true} duration={500} >Projects</Link></li>
+            <li className='py-6 text-4xl'><a href="https://drive.google.com/file/d/1gLZe2F3rhN_fykDgVeeobFaKPVv-5dmI/view?usp=share_link"  target="_blank" rel="noopener noreferrer">Resume</a></li>
           </ul>
 
     </div>
