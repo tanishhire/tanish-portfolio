@@ -16,7 +16,7 @@ const Skills = () => {
        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
              <p className='text-4xl inline border-b-4 border-[#B0D8BC]'>Skills</p>
-             <p className='mt-4 text-2xl'>Technologies that I am familier with </p>
+             <p className='mt-4 text-2xl'>Technologies that I am familiar with </p>
           </div>
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-6 text-center '>
               <div className='rounded-md shadow-sm shadow-[#B0D8BC] hover:scale-110'>

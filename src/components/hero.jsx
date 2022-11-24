@@ -12,8 +12,8 @@ const Hero = () => {
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-[#FFFFFF] '>
       <div className=''>
         <p className='text-[#fff]'>Hi, my name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#56C3E6]'>Tanish Hire</h1>
-        <h2 className='text-4xl sm:text-7xl font-bold text-[#d6d6d6]'>I am a <Typed className="pl-2" strings={['web-desginer', 'web-developer', 'UI/UX Desginer', 'Photographer', 'Mechanical Engineer']} typeSpeed={100}
+        <h1 className='text-5xl sm:text-7xl font-bold text-[#56C3E6]'>Tanish Hire</h1>
+        <h2 className='text-5xl sm:text-7xl font-bold text-[#d6d6d6]'>I am a <Typed className="pl-2" strings={['web-desginer', 'web-developer', 'UI/UX Desginer', 'Photographer', 'Mechanical Engineer']} typeSpeed={100}
             backSpeed={120}
             loop /> </h2>
         <p className='text-[#B0D8BC] py-2 max-w-[700px]'>Web Desginer-Developer | Aspiring Web 3 Developer | UI/UX | Photographer | Mechanical Engineer |</p>

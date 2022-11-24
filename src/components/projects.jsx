@@ -14,7 +14,8 @@ const Projects = () => {
       <div className='max-w-[1000px] mx-auto flex flex-col justify-center w-full h-full '>
             <div className='pb-8 px-4'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#B0D8BC]'>Projects</p>
-                <p className='py-6'>Projects that I have done</p>
+                <p className='pt-6 pb-3 text-2xl'>Projects that I have done</p>
+                <p className=''>Check out my <a href="https://bit.ly/gittanish" target="_blank" rel="noopener noreferrer" className='text-[#4c99d4]'>github</a>  for all my projects</p>
             </div>
 
             <div className='w-full grid sm:grid-cols-2 md:grid-cols-2 gap-4 px-4'>
