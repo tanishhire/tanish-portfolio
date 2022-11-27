@@ -17,14 +17,14 @@ const Navbar = () => {
         </div>
         {/* Menu */}
           <ul className='hidden md:flex'>
-            <li className=''><Link to='home' smooth={true} duration={500} >Home</Link></li>
-            <li className=''><Link to='about' smooth={true} duration={500} >About</Link></li>
-            <li className=''><Link to='skills' smooth={true} duration={500} >Skills</Link></li>
-            <li className=''><Link to='projects' smooth={true} duration={500} >Projects</Link></li>
-            <li className=''><Link to='contact' smooth={true} duration={500} >Contact</Link></li>
+            <li className=' hover:text-[#d6d6d6] hover:scale-105'><Link to='home' smooth={true} duration={500} >Home</Link></li>
+            <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='about' smooth={true} duration={500} >About</Link></li>
+            <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='skills' smooth={true} duration={500} >Skills</Link></li>
+            <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='projects' smooth={true} duration={500} >Projects</Link></li>
+            <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='contact' smooth={true} duration={500} >Contact</Link></li>
 
           </ul>
-          <button className='hidden md:flex btn bg-slate-50 p-2 rounded-md text-bold '><a href="https://drive.google.com/file/d/1gLZe2F3rhN_fykDgVeeobFaKPVv-5dmI/view?usp=share_link"  target="_blank" rel="noopener noreferrer">Resume</a></button>
+          <button className='hidden md:flex btn bg-slate-50 p-2 rounded-md text-bold hover:scale-105'><a href="https://drive.google.com/file/d/1gLZe2F3rhN_fykDgVeeobFaKPVv-5dmI/view?usp=share_link"  target="_blank" rel="noopener noreferrer">Resume</a></button>
 
         {/* Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10 cursor-pointer duration-300'>
@@ -32,11 +32,11 @@ const Navbar = () => {
         </div>
         {/* MObile Menu */}
         <ul className= {!nav ? 'hidden' :  "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"}>
-            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500} >Home</Link></li>
-            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='about' smooth={true} duration={500} >About</Link></li>
-            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500} >Skills</Link></li>
-            <li  className='py-6 text-4xl'><Link onClick={handleClick} to='projects' smooth={true} duration={500} >Projects</Link></li>
-            <li className='py-6 text-4xl'><a href="https://drive.google.com/file/d/1gLZe2F3rhN_fykDgVeeobFaKPVv-5dmI/view?usp=share_link"  target="_blank" rel="noopener noreferrer">Resume</a></li>
+            <li  className='py-6 text-4xl hover:text-[#d6d6d6] hover:scale-105 '><Link onClick={handleClick} to='home' smooth={true} duration={500} >Home</Link></li>
+            <li  className='py-6 text-4xl hover:text-[#d6d6d6] hover:scale-105' ><Link onClick={handleClick} to='about' smooth={true} duration={500} >About</Link></li>
+            <li  className='py-6 text-4xl  hover:text-[#d6d6d6] hover:scale-105'><Link onClick={handleClick} to='skills' smooth={true} duration={500} >Skills</Link></li>
+            <li  className='py-6 text-4xl  hover:text-[#d6d6d6] hover:scale-105'><Link onClick={handleClick} to='projects' smooth={true} duration={500} >Projects</Link></li>
+            <li className='py-6 text-4xl hover:text-[#d6d6d6] hover:scale-105 '><a href="https://drive.google.com/file/d/1gLZe2F3rhN_fykDgVeeobFaKPVv-5dmI/view?usp=share_link"  target="_blank" rel="noopener noreferrer">Resume</a></li>
           </ul>
 
     </div>

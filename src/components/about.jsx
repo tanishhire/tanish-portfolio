@@ -28,7 +28,7 @@ const About = () => {
             <div>
                 <div className='p'>
                 {/* Current  */}
-                <p className='sm:text-left font-bold text-2xl py-2 text-[#56C3E6]'>B. Tech in Mechanical Engineering</p>
+                <p className='sm:text-left font-bold text-2xl py-2 text-[#56C3E6] '>B. Tech in Mechanical Engineering</p>
                 <a href='https://bit.ly/jspmtanish' target='_blank' rel="noopener noreferrer"><p className='sm:text-left text-sm hover:text-[#B0D8BC]'>JSPM's Rajarshi Shahu College of Engineering, Pune (2021-2024)</p></a>
                 <p className='sm:text-left text-sm'>CGPA (current): 7.52</p>
 
