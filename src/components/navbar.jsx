@@ -22,6 +22,7 @@ const Navbar = () => {
             <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='skills' smooth={true} duration={500} >Skills</Link></li>
             <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='projects' smooth={true} duration={500} >Projects</Link></li>
             <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='contact' smooth={true} duration={500} >Contact</Link></li>
+            <li className='hover:text-[#d6d6d6] hover:scale-105'><Link to='' smooth={true} duration={500} ><a href='https://tanishhire.hashnode.dev/' target='_blank' rel="noopener noreferrer">Blogs </a></Link></li>
 
           </ul>
           <button className='hidden md:flex btn bg-slate-50 p-2 rounded-md text-bold hover:scale-105'><a href="https://drive.google.com/file/d/1gLZe2F3rhN_fykDgVeeobFaKPVv-5dmI/view?usp=share_link"  target="_blank" rel="noopener noreferrer">Resume</a></button>
