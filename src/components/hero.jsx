@@ -18,7 +18,7 @@ const Hero = () => {
             loop /> </h2>
         <p className='text-[#B0D8BC] py-2 max-w-[700px]'>Web Desginer-Developer | Aspiring Web 3 Developer | Blogger | UI/UX | Photographer | Mechanical Engineer |</p>
         <div>
-        <a href='https://mail.google.com/mail/?view=cm&fs=1&to=tanishhire5@gmail.com&su=SUBJECT&body=BODY' target="_blank" rel="noopener noreferrer"><button className='text-white group border-2 btn-1 px-6 py-3 my-2 flex items-center justify-center 
+        <a href='https://tanishhire.hashnode.dev/' target="_blank" rel="noopener noreferrer"><button className='text-white group border-2 btn-1 px-6 py-3 my-2 flex items-center justify-center 
         rounded-md hover:bg-[#56c3e6] hover:border-[#d6d6d6] hover:scale-105'>Check out my blogs 
           <span className=' duration-300'> 
              <HiArrowNarrowRight className='ml-3' />
