@@ -78,3 +78,19 @@ code {
       #B0D8BC  
   )!important;
 }
+
+.btn-1{
+  background-image: linear-gradient(to right, #4C99D4 0%, #B0D8BC 25%, #56c3e6 100%);
+    transition: 0.3s;
+}
+.btn-1:hover {
+  background-position:  right center; /* change the direction of the change here */
+}
+
+
+.cross:hover{
+  -webkit-animation:spin 4s linear infinite;
+  -moz-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+
+}
