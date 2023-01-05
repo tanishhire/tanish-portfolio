@@ -49,6 +49,7 @@ code {
 
 @layer base{
   body {
+    scroll-behavior: smooth;
     opacity: 0.9;
     /* background-color: white; */
     background-image: linear-gradient(to right, #08122F, #000);

@@ -26,7 +26,7 @@ const keyframes = {
 
 function App() {
   return (
-    <Scroll.Container scrollAxis="y" className="h-screen">
+    <Scroll.Container scrollAxis="y" className="h-screen scroll-smooth">
     <Scroll.Section className="h-screen  bg-1">
       <Scroll.Item keyframes={keyframes.heading}>
         <Navbar />
