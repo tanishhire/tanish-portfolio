@@ -6,7 +6,7 @@ import {AiTwotoneMail} from 'react-icons/ai';
 
 const Footer = () => {
   return (
-    <div name="contact" className='pt-[300px] w-full h-[300px] text-[#d6d6d6] bg-[#0a192f] px-4'>
+    <div name="contact" className='// mt-[250px] w-full h-[300px] text-[#fff]  px-4'>
     <div className='max-w-[1000px] mx-auto p-4 '>
       <div className='flex flex-col md:flex-row-1'> 
         <div className='text-4xl font-bold mx-auto md:mx-0 '>Get in Touch with me </div>

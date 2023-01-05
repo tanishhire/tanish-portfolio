@@ -11,7 +11,7 @@ import Figma from "../assets/figma.png";
 
 const Skills = () => {
   return (
-    <div  name="skills" className='w-full h-screen bg-[#0a192f] text-[#d6d6d6] '>
+    <div  name="skills" className='w-full h-screen  text-[#d6d6d6] '>
        {/* COntainer */}
        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
           <div>
